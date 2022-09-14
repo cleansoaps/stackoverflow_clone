@@ -1,0 +1,51 @@
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  height: 100vh;
+  background-color: #f1f2f3;
+}
+
+.loginForm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 250px;
+  width: 300px;
+}
+
+.loginForm-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.loginForm-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.loginForm-password-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.loginForm-password-text > span:last-child {
+  font-size: 8px;
+}
+
+.loginForm-login > button {
+  background-color: #0a95ff;
+  border-style: none;
+  height: 30px;
+  width: 150px;
+}

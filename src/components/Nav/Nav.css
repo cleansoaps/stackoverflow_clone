@@ -1,0 +1,120 @@
+.nav__container {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 290px;
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__ul {
+  width: 160px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 500px;
+  padding: 10px;
+  padding-right: 0px;
+}
+
+.nav__ul > li {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  padding-left: 7px;
+}
+
+.nav__ul > li:last-child {
+  padding-left: 0px;
+  margin-top: -19px;
+}
+.nav__ul > li:nth-child(3) {
+  margin-top: -10px;
+}
+.nav__public__ul {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.nav__public__ul > li {
+  margin-bottom: 15px;
+}
+.nav__public__ul > li:first-child {
+  margin-left: -18px;
+}
+.nav__public__ul > li:first-child > i {
+  margin-right: 4px;
+}
+.nav__collectives__ul > li {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.nav__teams__ul {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__stack {
+  width: 160px;
+}
+.nav__teams__ul__li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 152px;
+}
+.nav__teams__ul__li > p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.nav__teams {
+  padding-left: 0px;
+}
+
+.nav__teams__ul__li > button {
+  background-color: #f48225;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.nav__teams__ul__li__bold {
+  color: black;
+  font-weight: 900;
+}
+
+.nav__public__questions {
+  font-weight: 900;
+  color: black;
+}

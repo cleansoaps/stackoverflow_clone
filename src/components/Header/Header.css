@@ -1,0 +1,121 @@
+.header {
+  height: 45px;
+  border-top: 3px solid #f48024;
+  padding: 3px 3px 0 0;
+  z-index: 1000;
+  background-color: #f8f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 5px 2px rgba(0, 0, 0, 0.1);
+}
+.header_container {
+  width: 81rem;
+  height: 40px;
+  background-color: #f8f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+  padding-bottom: 3px;
+}
+.header_col1 > i {
+  padding-bottom: 5px;
+}
+
+.header_col3 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  width: 700px;
+  padding: 7px;
+  background-color: white;
+  height: 17px;
+}
+.search > span {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+}
+.search > i {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.header_col2 {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+.search {
+  font-size: 14px;
+}
+.header_col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+.overFlow {
+  font-weight: bold;
+  margin-left: 3px;
+}
+.header-stackOverFlow {
+  padding-top: 5px;
+  margin-left: 3px;
+}
+.logo {
+  color: black;
+}
+
+.header_col2 > li {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.header_col3 {
+  margin-right: 0px;
+}
+
+.header__login__btn {
+  background-color: #e1ecf4;
+  border: 1px solid rgba(72, 114, 143, 0.5);
+  color: #48728f;
+  height: 33px;
+  width: 60px;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.header__signup__btn {
+  background-color: #0a95ff;
+  border: 1px solid transparent;
+  color: white;
+  height: 33px;
+  width: 71px;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  margin-left: -8px;
+}
